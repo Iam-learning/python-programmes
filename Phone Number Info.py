@@ -1,5 +1,4 @@
 #first install phonenumbers liberary
-#enter phone number with country code
 
 import phonenumbers
 
@@ -7,7 +6,7 @@ from phonenumbers import carrier
 
 from phonenumbers import geocoder
 
-a = input ("Enter your phone Number :")
+a = input ("Enter your phone Number:")   #enter phone number with country code
 
 phone_number = phonenumbers.parse(a)
 
